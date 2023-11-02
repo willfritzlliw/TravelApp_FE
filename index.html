@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= productName %></title>
+    <title>Vegabond</title>
 
     <meta charset="utf-8">
     <meta name="description" content="<%= productDescription %>">
+    <meta name="keywords" content="keywords">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
@@ -14,6 +15,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
     <link rel="icon" type="image/ico" href="favicon.ico">
+
+    <meta property="og:url" content="pageUrl">
+    <meta property="og:image" content="imageUrl">
+    <meta property="og:description" content="<%= productDescription %>">
+    <meta property="og:title" content="pageTitle">
+    <meta property="og:site_name" content="siteTitle">
+    <meta property="og:see_also" content="homepageUrl">
+
+    <meta itemprop="name" content="pageTitle">
+    <meta itemprop="description" content="<%= productDescription %>">
+    <meta itemprop="image" content="imageUrl">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="pageUrl">
+    <meta name="twitter:title" content="pageTitle">
+    <meta name="twitter:description" content="<%= productDescription %>">
+    <meta name="twitter:image" content="imageUrl">
+
+
   </head>
   <body>
     <!-- quasar:entry-point -->
