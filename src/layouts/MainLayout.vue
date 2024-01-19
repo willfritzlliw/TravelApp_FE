@@ -32,7 +32,7 @@
         :width="200"
         :breakpoint="500"
         bordered
-        :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"
+        :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-1'"
       >
         <q-scroll-area class="fit">
           <q-list>
@@ -65,10 +65,16 @@
 import { defineComponent, ref } from 'vue'
 
 const menuList = [
+{
+    icon: 'forum',
+    label: 'Social',
+    separator: true,
+    to: '/'
+  },
   {
     icon: 'list',
     label: 'To-Dos',
-    separator: true,
+    separator: false,
     to: '/tasks'
   },
   {
@@ -80,7 +86,13 @@ const menuList = [
   {
     icon: 'collections',
     label: 'Gallery',
-    separator: false,
+    separator: true,
+    to: '/'
+  },
+  {
+    icon: 'chat',
+    label: 'Tribe',
+    separator: true,
     to: '/'
   },
   {
