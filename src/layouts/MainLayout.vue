@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header>
+    <q-header class="q-pt-sm q-pb-sm">
       <q-toolbar>
         <q-btn
           flat
@@ -13,15 +13,17 @@
 
         <q-toolbar-title>
           <!-- <q-img src="static/luggage-icon.png" class="header-img"></q-img> -->
-          <div class="brand">  App</div>
+          <div class="brand"><q-avatar><img src="src/assets/site_imgs/luggage-icon.png" /></q-avatar> 
+           App
+          </div>
         </q-toolbar-title>
-      </q-toolbar>
-      
-      <q-tabs class="" align="right">
-        <q-route-tab to="/page1" label="Page One" />
-        <q-route-tab to="/page2" label="Page Two" />
-        <q-route-tab to="/page3" label="Page Three" />
+
+        <q-tabs class="gt-sm inline" align="right">
+        <q-route-tab to="/login" label="Login" />
+        <q-route-tab to="/profile" label="Profile" />
+        <q-route-tab to="/page3" label="About" />
       </q-tabs>
+      </q-toolbar>
     </q-header>
 
     <q-drawer
@@ -64,14 +66,20 @@ import { defineComponent, ref } from 'vue'
 
 const menuList = [
   {
-    icon: 'List',
-    label: 'Tasks',
+    icon: 'list',
+    label: 'To-Dos',
     separator: true,
     to: '/tasks'
   },
   {
-    icon: 'Dashboard',
-    label: 'Dashboard',
+    icon: 'savings',
+    label: 'Savings Goals',
+    separator: false,
+    to: '/'
+  },
+  {
+    icon: 'collections',
+    label: 'Gallery',
     separator: false,
     to: '/'
   },
@@ -98,6 +106,7 @@ export default defineComponent({
 
   setup () {
     const drawer = ref(false)
+    const loggedin = ref(false)
 
     return {
       drawer,

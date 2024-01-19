@@ -1,0 +1,42 @@
+Features
+    ↳   • Twitter like fourm *home page* | main driver of app | everything else if to increase value
+            -allows users to talk about subjects such as travel deals, destinations, ect
+            -displayed in a group chat type style (if possible, if not twitter style)
+            -links are displayed in non clickable format and with a button (if click is desired) and confirmation box
+            -upload picture, word art (creation tool added), gifs, no videos (can't do it, gotta keep them server costs low rn)
+
+        • Trip based task list (sharable with clan (friends))
+            -has chat functionality
+            -can set a timeline
+            -can set a timeline per task
+            -can set a group trip with group chat and assigning tasks
+    
+        • Trip based Financial Planer (sharable with clan (friends))
+            -initialized with form (how long do you plan to be there, what is a dinner going to cost, travel cost, add buffer?, ect)
+                -after form is filled out a predicted cost will be populated (can be altered)
+                -will be broken down into weekly,monthly or daily goals
+                -can define who or where the money actually is (if desired)
+            -set to private by default 
+            -can be shared
+            -has chat functionality
+            -if group will show each persons contributions
+
+        • Gallery (Pintrest like)
+            -divided into catagories (van life, RV, Primative, Hiking, Tourist) 
+            -can post picture and 120 character description (must be in catagory)
+            -no word replies, only emojies
+            -upload picture or gifs, no videos (can't do it, gotta keep them server costs low rn)
+
+
+Profile
+    ↳   • picture
+        • username / bio
+        • friends / clan (same thing and can toggle display value Clan by default)
+        • followers / admirers / enthusiasts / fans (only you can see profiles, everyone else sees numbers)
+        • people don't see how many people you follow 
+        • list of trips taken
+        • badges earned ("world travler (traveled to x number of countries), sugar daddy/mommy (top contributer on group trip), ect.)
+        • travel wish list
+        • topics followed
+        • people followed
+        • Images and posts posted
