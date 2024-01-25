@@ -54,6 +54,7 @@
       </q-drawer>
 
     <q-page-container>
+      <div class="text-center bg-sec text-white gt-sm">{{ $route.name }}</div>
       <keep-alive>
         <router-view />
       </keep-alive>
