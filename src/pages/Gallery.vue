@@ -1,7 +1,6 @@
 <template class="q-pa-lg">
   <q-page class="flex">
-      <h5 class="q-mt-none">Help Page</h5><br>
-      <p>asdf asdf</p>
+      <h5 class="q-mt-none">Savings Goals</h5><br>
   </q-page>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header class="q-pt-sm q-pb-sm">
       <q-toolbar>
         <q-btn
@@ -54,7 +54,6 @@
       </q-drawer>
 
     <q-page-container>
-      <div class="text-center bg-sec text-white gt-sm">{{ $route.name }}</div>
       <keep-alive>
         <router-view />
       </keep-alive>
@@ -82,25 +81,25 @@ const menuList = [
     icon: 'savings',
     label: 'Savings Goals',
     separator: false,
-    to: '/'
+    to: '/savings-goals'
   },
   {
     icon: 'collections',
     label: 'Gallery',
     separator: true,
-    to: '/'
+    to: '/gallery'
   },
   {
     icon: 'chat',
     label: 'Tribe',
     separator: true,
-    to: '/'
+    to: '/tribe'
   },
   {
     icon: 'settings',
     label: 'Settings',
     separator: false,
-    to: '/'
+    to: '/settings'
   },
   {
     icon: 'help',

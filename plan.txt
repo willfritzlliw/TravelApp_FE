@@ -22,9 +22,9 @@ Features
             -if group will show each persons contributions
 
         • Gallery (Pintrest like)
-            -divided into catagories (van life, RV, Primative, Hiking, Tourist) 
-            -can post picture and 120 character description (must be in catagory)
-            -no word replies, only emojies
+            -can add tags like (van life, RV, Primative, Hiking, Tourist) 
+            -posted pictures can have 50 characters description
+            -no word replies, only emojies (like, dislike, laugh, heart, cry, prayer hands)
             -upload picture or gifs, no videos (can't do it, gotta keep them server costs low rn)
 
 

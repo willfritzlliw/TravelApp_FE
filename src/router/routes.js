@@ -6,6 +6,10 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Social.vue'), name: 'Home' },
       { path: '/tasks', component: () => import('pages/Tasks.vue') , name: 'Tasks'},
+      { path: '/savings-goals', component: () => import('pages/Savings.vue') , name: 'Savings' },
+      { path: '/gallery', component: () => import('pages/Gallery.vue') , name: 'Gallery' },
+      { path: '/tribe', component: () => import('pages/Tribe.vue') , name: 'Tribe' },
+      { path: '/settings', component: () => import('pages/Settings.vue') , name: 'Settings' },
       { path: '/login', component: () => import('pages/Login.vue') , name: 'Login' },
       { path: '/help', component: () => import('pages/Help.vue') , name: 'Help'}
     ]
