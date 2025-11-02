@@ -39,18 +39,29 @@
 </template>
 
 <script>
+/**
+ * @file Login.vue
+ * @description This component provides a login form for users to authenticate.
+ */
 import { defineComponent } from 'vue'
 import { useQuasar } from 'quasar'
 import { ref } from 'vue'
 
 export default defineComponent({
   name: 'LoginPage',
+  /**
+   * @description This is the setup function for the component.
+   */
   setup () {
     const $q = useQuasar()
 
     return {
       $q
     }},
+    /**
+     * @description This function returns the initial data for the component.
+     * @returns {object} The initial data for the component.
+     */
     data(){
       const username = ref(null)
       const password = ref(null)
@@ -62,9 +73,15 @@ export default defineComponent({
       }
     },
     methods: {
+        /**
+         * @description This function is called when the form is submitted.
+         */
         onSubmit(){
 
         },
+        /**
+         * @description This function is called when the form is reset.
+         */
         onReset(){
 
         },
